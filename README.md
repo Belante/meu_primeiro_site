@@ -1,2 +1,2 @@
-ele só abre se abrir pelo live server do vscode...por alguma razão...e se baixar a imagem. Não consegui resolver.
+A imagem só abre caso baixe a imagem e rode pelo live server do vscode. Infelizmente não consegui resolver.
 
