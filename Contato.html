@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Entre em contato aqui! </title>
+     <style>
+            body
+            {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            }
+
+            form 
+            {
+            text-align: center;
+            }
+        </style>
+</head>
+
+<body>
+    <body style="background-color:#f3eed8;"></body>
+<div>
+    <h1>Reclamações, perguntas?</h1>
+    <h3>Fale comigo! :]</h3>
+
+    <p></p>
+    <p></p>
+
+    <h3>Basta preencher o formulário abaixo:</h3>
+    <form>
+        <label>email remetente:</label>
+        <input type="email" placeholder="Seu email" id="email" name="email" required>
+        <br></br>
+
+        <label>email destinatário:</label>
+        <input type="email" placeholder="Meu email" id="email" name="email" required>
+        <br></br>
+
+        <label>Nome:</label>
+        <input type="text" placeholder="Seu nome" id="nome" name="nome" required>
+        <br></br>
+
+        <label for="celular">Celular:</label>
+        <input type="tel" placeholder="(11) 99999-9999" id="celular" name="celular" pattern="[0-9]{11}" >
+        <br></br>
+
+
+        <label>Assunto:</label>
+        <input type="text" placeholder="Assunto" id="assunto" name="assunto" required>
+        <br></br>
+
+        <p>Mensagem:</p>
+        <textarea></textarea>
+        <br></br>
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+
+</div>
+</body>
+</html>
