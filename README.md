@@ -1,2 +1,2 @@
-A imagem só abre caso baixe a imagem e rode pelo live server do vscode. Infelizmente não consegui resolver.
+A imagem agora funciona e foi adicionado uma página para contato.
 
